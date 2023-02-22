@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../css/style.css">
+        <title>Cadastro de Marca</title>
+    </head>
+
+    <body>
+        <header>
+            <nav>
+                <div class="dropdown">
+                    <button class="dropbtn">Menu</button>
+                    <div class="dropdown-content">
+                        <a href="../index.html">Início</a>
+                        <a href="./cadastro-marcas.html">Marca</a>
+                        <a href="../pages/cadastro-modelos.html">Modelo</a>
+                        <a href="../pages/cadastro-veiculos.html">Veículo</a>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <h1>Cadastro de Marca</h1>
+
+        <div class="cadastro">
+            <form action="" onsubmit="event.preventDefault()" action="">
+                <input id="nome-marca" type="text">
+                <button onclick="cadastrarMarca()" type="submit">Cadastrar</button>
+            </form>
+        </div>
+        <script src="../js/marcas/cadastro.js"></script>
+    </body>
+
+</html>
